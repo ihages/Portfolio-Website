@@ -1,0 +1,116 @@
+/* STYLE SECTIONING TAGS */
+:root{
+  --toprowimgtop: 325px;
+  --galwide:240px;
+  --imghigh:200px;
+  --toprowtxttop: 525px;
+}
+
+body {
+ background-color: #130f2e; 
+  margin:20px;
+}
+
+main {
+  background-color: #ffebeb;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+main2 {
+  background-color: #ffebeb;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: "Trebuchet MS", "serif";
+  color: #800033;
+  
+}
+
+h2 {
+  color: #800033;
+  font-family: "Trebuchet MS", "serif";
+  position: absolute;
+  padding-left: 35px;
+}
+
+a {
+  color:#bb0005;
+}
+
+#gtitle{
+  color: #800033;
+  font-family: "Trebuchet MS", "serif";
+  max-width:var(--galwide);
+}
+
+#desc {
+  color:#800033;
+  margin-left: 0px;
+  position: static;
+  top:35px;
+  left:0px;
+  padding-right: 10px;
+  size: 30px;  
+  font-family: "Trebuchet MS", "serif";
+}
+
+#galtxt {
+  size: 30px;
+  color:#800033;
+  font-family: "Trebuchet MS", "serif";
+  max-width:var(--galwide);
+}
+
+/* STYLE IMAGES */
+#galimg{
+  height:var(--imghigh);
+  width:auto;
+} 
+  
+.ugallery{
+  position:relative;
+  top: 50px;
+  list-style-type: none;
+}
+
+.lgallery{
+  display:inline-table;
+}
+
+/* STYLE NAV BAR */
+#IHlogo{
+  width:12px;
+  height:auto;
+}
+.nav{
+  background-color: #ffebeb;
+  border-radius: 20px;
+}
+ul{
+  list-style-type: none;
+  background-color: #ffebeb;
+  overflow:hidden;
+  padding:10px;
+  border-radius: 20px;
+}
+li {
+  display:inline;
+  padding:20px;
+  font-family: "Trebuchet MS", "serif";
+}
+li a {
+  text-decoration: none;
+  padding:10px; 
+  color: black;
+}
+li a:hover{
+  color:#dd0005;
+}
+}
+
+
+

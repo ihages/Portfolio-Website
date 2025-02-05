@@ -1,0 +1,137 @@
+/* STYLE SECTIONING TAGS */
+:root{
+  --toprowimgtop: 325px;
+  --galwide:240px;
+  --imghigh:200px;
+  --toprowtxttop: 525px;
+}
+
+body {
+ background-color: #130f2e; 
+  margin:20px;
+}
+
+main {
+  background-color: #ffebeb;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+main2 {
+  background-color: #ffebeb;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: "Trebuchet MS", "serif";
+  color: #800033;
+}
+
+h2 {
+  color: #800033;
+  font-family: "Trebuchet MS", "serif";
+  position: static;
+}
+
+#desc {
+  color:#800033;
+  margin-left: 0px;
+  position: static;
+  top:35px;
+  left:0px;
+  padding-right: 10px;
+  size: 30px;  
+  font-family: "Trebuchet MS", "serif";
+}
+
+#galtxt {
+  size: 30px;
+  color:#800033;
+  font-family: "Trebuchet MS", "serif";
+  max-width:var(--galwide);
+  position: static;
+  padding-top:5px;
+  a {
+    bottom: 2px;
+    color:#bb0005;
+    text-decoration: underline;
+  }
+
+}
+
+#exptxt {
+  size: 30px;
+  color:#800033;
+  font-family: "Trebuchet MS", "serif";
+  position:static;
+  padding:30px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+#exphead{
+  color: #800033;
+  font-family: "Trebuchet MS", "serif";
+  position:relative;
+
+}
+
+a {
+  color:#bb0005;
+  text-decoration: underline;
+}
+
+/* STYLE IMAGES */
+#robot{
+  width:var(--galwide);
+  height:var(--imghigh);
+
+}
+#soonimg{
+  width:var(--galwide);
+  height:var(--imghigh);
+  }
+  
+.ugallery{
+  position:static;
+  top: 50px;
+  list-style-type: none;
+}
+.lgallery{
+  display:inline-table;
+}
+#IHlogo{
+  width:12px;
+  height:auto;
+}
+
+/* STYLE NAV BAR */
+.nav{
+  background-color: #ffebeb;
+  border-radius: 20px;}
+  
+ul{
+  list-style-type: none;
+  overflow:hidden;
+  padding:10px;
+  border-radius: 20px;
+}
+li {
+  display:inline;
+  padding:20px;
+  font-family: "Trebuchet MS", "serif";
+}
+li a {
+  text-decoration: none;
+  padding:10px; 
+  color: black;
+}
+li a:hover{
+  color:#dd0005;
+}
+}
+
+
+

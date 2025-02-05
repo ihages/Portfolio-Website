@@ -1,0 +1,81 @@
+/* STYLE SECTIONING TAGS */
+
+body {
+ background-color: #130f2e; 
+ margin:20px;
+}
+
+main {
+  margin: 5px;
+  color: #130f2e;
+  padding: 20px;
+  background-color: #ffebeb;
+  border-radius: 20px;
+  padding-left: 275px;
+  height: 300px;
+}
+
+/* STYLE TEXT */
+h1 {
+font-family: "Trebuchet MS", "serif";
+color: #660002;
+}
+
+.isabelle {
+  position: sticky;
+  size: 30px;  
+  font-family: "Trebuchet MS", "serif";
+  left:270px;
+  padding-right: 30px;
+
+}
+
+
+a {
+  color:#dd0005;
+}
+
+/* STYLE IMAGES */
+#isabelle{
+  position:absolute;
+  left:50px;
+  top:120px;
+  border: 10px;
+  border-block-color: black;
+  border-radius: 20px;
+  width:200px;
+}
+#IHlogo{
+  width:12px;
+  height:auto;
+}
+
+/* STYLE BUTTONS */
+
+
+/* STYLE NAV BAR */ 
+
+ul{
+  list-style-type: none;
+  background-color: #ffebeb;
+  overflow:hidden;
+  padding:10px;
+  border-radius: 20px;
+}
+li {
+  display:inline;
+  padding:20px;
+  font-family: "Trebuchet MS", "serif";
+}
+li a {
+  text-decoration: none;
+  padding:10px; 
+  color: black;
+}
+li a:hover{
+  color:#dd0005;
+}
+}
+
+
+
